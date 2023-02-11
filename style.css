@@ -1,11 +1,11 @@
 
 #n1{
     text-size-adjust: 20px;
-    text-decoration-color: #cbced1;
+    text-decoration-color: #2e76be;
 }
 .navbar {
     margin-bottom: 0;
-    background-color:darkgreen;
+    background-color:rgb(17, 32, 17);
     
     border: 0;
     font-size: 12px !important;
@@ -30,7 +30,7 @@
 }
 
 .bg{
-    background-image: url('img/keralas2.jpg');
+    background-image: url('images/keralas2.jpg');
 }
 
 .lo{
@@ -54,3 +54,11 @@ body{
 
 
 
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#fec400;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+.nav-link{padding:15px 5px;transition:0.2s;}
+.tx{
+  font-size: 200%;
+  color: #fec400;
+  
+}
